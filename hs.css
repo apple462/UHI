@@ -231,3 +231,44 @@ p{
     outline: none;
     box-shadow: none;
 }
+
+.colorchange{
+    /* fill: #ffffff; */
+    stroke: #A4A5A6;
+}
+
+.colorchangepath{
+    fill: #A4A5A6;
+}
+/* 
+svg:hover{
+    fill: #ffffff;
+} */
+
+.button-css:hover > .colorchangepath {
+    fill: #ffffff;
+    /* stroke: #ffffff; */
+}
+
+.button-css:hover > .colorchange {
+    /* fill: #ffffff; */
+    stroke: #ffffff;
+}
+
+.togglebuttons:hover > .colorchange {
+    /* fill: #ffffff; */
+    stroke: #ffffff;
+}
+
+.button-css-active > .colorchange{
+    stroke: #ffffff;
+}
+
+.button-css-active > .colorchangepath{
+    fill: #ffffff;
+}
+
+.togglebuttons-active > .colorchange {
+    /* fill: #ffffff; */
+    stroke: #ffffff;
+}
