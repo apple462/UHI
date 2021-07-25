@@ -162,6 +162,11 @@ body{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.button-master-3-active:hover{
+    background-color: #357C95;
+    color: white;
+}
+
 .hscard{
     border-radius: 15px;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
