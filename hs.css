@@ -353,3 +353,44 @@ svg:hover{
     /* fill: #ffffff; */
     stroke: #ffffff;
 }
+
+.btn-circle {
+    height: 50px;
+    line-height: 50px;  
+    width: 50px;  
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  }
+
+  .claimstats{
+    width: 16%; 
+    display: inline-block; 
+    vertical-align: top;   
+    text-align: center;  
+    padding-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: -2px;
+  }
+
+.leftedge{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.rightedge{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.notifications{
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05), 1px 1px 1px 1px rgba(0, 0, 0, 0.05); */
+    border: white;
+    border-radius: 15px;
+    padding: 20px 25px 25px 20px;
+    margin-bottom: 25px;
+    /* background-color: rgb(243, 235, 235); */
+    vertical-align: middle;
+}
