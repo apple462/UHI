@@ -394,3 +394,23 @@ svg:hover{
     /* background-color: rgb(243, 235, 235); */
     vertical-align: middle;
 }
+
+.employeestats{
+    width: 16%; 
+    display: inline-block; 
+    vertical-align: top;   
+    text-align: left;  
+    padding-top: 10px;
+}
+
+.employeestatshead{
+    color: #347A94;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.employeestatssubhead{
+    color: #347A94;
+    font-size: 16px;
+    font-weight: 400;
+}
