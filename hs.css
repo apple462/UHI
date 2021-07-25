@@ -15,11 +15,18 @@ body{
     width: 49%;
     color: #329896;
     border-radius: 5px;
+    text-align: center;
     border: none;
     padding: 10px;
     background-color: white;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .button-master-2:hover{
@@ -36,6 +43,18 @@ body{
     font-weight: 500;
     background-color: #357C95;
     color: white;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-master-2-active:hover{
+    background-color: #357C95;
+    color: white;
 }
 
 .button-css{
@@ -50,12 +69,19 @@ body{
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .button-css:hover{
     background-color: #357C95;
     color: white;
 }
+
 
 .button-css-active{
     width: 70%;
@@ -69,7 +95,25 @@ body{
     background-color: #357C95;
     color: white;
     margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+.button-css-active:hover{
+    background-color: #357C95;
+    color: white;
+}
+
+/* .button-css-active:focus {
+    z-index: 3;
+    border: none;
+    outline: none;
+    box-shadow: none;
+} */
 
 .hianuj{
     font-size: 24px;
@@ -89,6 +133,12 @@ body{
     background-color: white;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .button-master-3:hover{
@@ -104,6 +154,12 @@ body{
     font-weight: 500;
     background-color: #357C95;
     color: white;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .hscard{
@@ -117,6 +173,14 @@ body{
     box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.05), 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
     padding: 20px 25px 25px 20px;
+    margin-bottom: 25px;
+}
+
+.overviewtogglecard{
+    /* box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.05), 1px 1px 1px 1px rgba(0, 0, 0, 0.05); */
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    /* padding: 2px 2px 2px 2px; */
     margin-bottom: 25px;
 }
 
@@ -157,7 +221,7 @@ p{
 
 .togglebuttons{
     width: 32.99%;
-    /* text-align: left; */
+    text-align: center;
     padding: 15px 0px 15px 0px;
     /* margin: 10px 0px; */
     border: none;
@@ -166,11 +230,17 @@ p{
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .togglebuttons-active{
     width: 32.99%;
-    /* text-align: left; */
+    text-align: center;
     padding: 15px 0px 15px 0px;
     /* margin: 10px 0px; */
     border: none;
@@ -179,9 +249,20 @@ p{
     font-weight: 500;
     background-color: #357C95;
     color: white;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .togglebuttons:hover{
+    background-color: #357C95;
+    color: white;
+}
+
+.togglebuttons-active:hover{
     background-color: #357C95;
     color: white;
 }
