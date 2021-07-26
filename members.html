@@ -288,14 +288,38 @@
                             <tr>
                                 <th scope="col" style="color: #B2B3BD;" data-bs-target="#insufficientbalance"
                                     data-bs-toggle="modal" data-bs-dismiss="modal">Employee</th>
-                                <th scope="col" style="color: #B2B3BD;width:80px;">Contact</th>
-                                <th scope="col" style="color: #B2B3BD;">DoB</th>
-                                <th scope="col" style="color: #B2B3BD;">Health ID</th>
-                                <th scope="col" style="color: #B2B3BD;">Gender</th>
-                                <th scope="col" style="color: #B2B3BD;">Dependents</th>
-                                <th scope="col" style="color: #B2B3BD;">Status</th>
-                                <th scope="col" style="color: #B2B3BD;">Upgrades</th>
-                                <th scope="col" style="color: #B2B3BD;">Plans</th>
+                                <th scope="col" style="color: #B2B3BD;width:80px;"
+                                data-bs-target="#addemployee3"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal"
+                                >Contact</th>
+                                <th scope="col" style="color: #B2B3BD;"
+                                data-bs-target="#insufficientbalance"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal"
+                                >DoB</th>
+                                <th scope="col" style="color: #B2B3BD;"
+                                data-bs-target="#addfamily2"
+                                data-bs-toggle="modal" data-bs-dismiss="modal"
+                                >Health ID</th>
+                                <th scope="col" style="color: #B2B3BD;"
+                                data-bs-target="#addfamily1"
+                                data-bs-toggle="modal" data-bs-dismiss="modal"                                
+                                >Gender</th>
+                                <th scope="col" style="color: #B2B3BD;"
+                                data-bs-target="#contactteam"
+                                data-bs-toggle="modal" data-bs-dismiss="modal"  
+                                >Dependents</th>
+                                <th scope="col" style="color: #B2B3BD;"
+                                data-bs-target="#editdetails1"
+                                data-bs-toggle="modal" data-bs-dismiss="modal"
+                                >Status</th>
+                                <th scope="col" style="color: #B2B3BD;"
+                                data-bs-target="#editdependent"
+                                data-bs-toggle="modal" data-bs-dismiss="modal"
+                                >Upgrades</th>
+                                <th scope="col" style="color: #B2B3BD;"
+                                data-bs-target="#editssaved"
+                                data-bs-toggle="modal" data-bs-dismiss="modal"
+                                >Plans</th>
                                 <th scope="col" style="color: #B2B3BD;">Premium</th>
                                 <th scope="col" style="color: #B2B3BD;">Additional Premium</th>
                                 <th scope="col" style="color: #B2B3BD;">Sum insured</th>
@@ -441,6 +465,63 @@
         </div>
     </div>
 
+
+<!-- contact hs team -->
+    <div class="modal fade" id="contactteam" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <center>
+                    <h3 id="staticBackdropLabel" style="margin-top:30px;">Contact HealthySure team</h3>
+                    <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        <br><br>
+
+                       <span style="color:#676565;">To edit employee details you can contact<br>HealthySure team</span>
+                        <br><br>
+                        <img src="images/hs_logo.png"><br>
+                        <br><br>
+                        <div></div>
+                        <a class="button-master-3" data-bs-dismiss="modal"
+                            style="width:150px;position:absolute;left:80px">Go to dashboard</a>
+                        <a class="button-master-3-active" style="width:150px;position:absolute;right:80px;">Contact us</a>
+                            <br><br><br><br>
+
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- editssaved -->
+    <div class="modal fade" id="editssaved" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <center>
+                    <h3 id="staticBackdropLabel" style="margin-top:30px;">Edited details saved</h3>
+                    <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        <br><br>
+
+                       <span style="color:#676565;">Edited details of members will reflect on<br>insurance records</span>
+                        <br><br>
+                        <img src="images/tick.png"><br>
+                        <br><br>
+                        <div></div>
+                        <a class="button-master-3-active" data-bs-dismiss="modal"
+                            style="width:150px;">Go to dashboard</a>
+                            <br><br><br><br>
+
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Update Member #1 -->
     <div class="modal fade" id="updatemember1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -467,6 +548,63 @@
             </div>
         </div>
     </div>
+
+    <!-- Add employee 3 -->
+    <div class="modal fade" id="addemployee3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <center>
+                    <h3 id="staticBackdropLabel" style="margin-top:60px;color:#357C95">New Employee details saved</h3>
+                    <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        Member will be added once our team updates<br>member.
+                        <br><br>
+                        <img data-bs-target="#updatemember3" data-bs-toggle="modal" data-bs-dismiss="modal"
+                            src="images/tick2.png"><br><br>
+                            <span style="color:#676565;">Aprx. Prem. : 24,000/yr</span>&nbsp&nbsp&nbsp<span style="color:#357C95;">CD balance : 1,25,000</span>
+                            <br><br><br><br>
+                    </div>
+                    <!-- <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Understood</button>
+                                        </div> -->
+                </center>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Insufficient Balance -->
+        <!-- Add employee 3 -->
+        <div class="modal fade" id="insufficientbalance" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <center>
+                    <h3 id="staticBackdropLabel" style="margin-top:60px;color:#357C95">Insufficient Balance</h3>
+                    <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        Your CD balance is insufficient to add new<br>members. Please pay.
+                        <br><br>
+                        <img data-bs-target="#updatemember3" data-bs-toggle="modal" data-bs-dismiss="modal"
+                            src="images/pay.png"><br><br>
+                            <span style="color:#357C95;">CD balance : 1,25,000</span>
+                            <br><br>
+                            <a href="members.html" class="button-master-2-active">Go to dashboard</a>
+                            <br><br><br>
+                    </div>
+                    <!-- <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Understood</button>
+                                        </div> -->
+                </center>
+            </div>
+        </div>
+    </div>
+
 
     <div class="modal fade" id="updatemember3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -588,7 +726,116 @@
         </div>
     </div>
 
-    <!-- Add dependent modal -->
+    <!-- edit dependent modal -->
+    <div class="modal fade" id="editdependent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <center>
+                    <h3 id="staticBackdropLabel" style="margin-top:30px;">Edit details</h3>
+                    <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                        data-bs-target="#closemodal" data-bs-toggle="modal" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <div class="modal-body">
+
+                        <br><br>
+                        <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee</span><br>
+                        <input type="text" class="singleLineInput" name="name" class="form-control" id="name" value=""
+                            placeholder="Seema Srivastava   E123456 06 July,1989    9857585839  seema@company.com" style="width: 90%;"><br><br>
+
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">First name</span><br>
+                                    <input type="text" class="singleLineInput" name="name" class="form-control"
+                                        id="name" value="Pankaj"><br><br>
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">Gender</span><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                            id="inlineRadio6" value="option1" checked>
+                                        <label class="form-check-label" for="inlineRadio1" >Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                            id="inlineRadio7" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                            id="inlineRadio8" value="option3">
+                                        <label class="form-check-label" for="inlineRadio3">Other</label>
+                                    </div>
+                                    <br><br>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">Relationship</span><br>
+                                    <input type="text" class="singleLineInput" name="name" class="form-control"
+                                        id="name" value="Spouse"><br><br>
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">Date Of
+                                        Birth</span><br>
+
+
+                                    <span class="dropdown">
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="color:black;border:1px solid #357C95;">
+                                            15
+                                        </div>
+                                    </span>
+
+
+                                    <span class="dropdown">
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="color:black;border:1px solid #357C95;">
+                                            July
+                                        </div>
+                                    </span>
+
+
+                                    <span class="dropdown">
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="color:black;border:1px solid #357C95;">
+                                            1989
+                                        </div>
+                                    </span>
+
+
+                                </div>
+
+                                <div></div>
+                                <a class="button-master-3"
+                                    style="width:150px;position:absolute;left:80px;bottom:20px;">Add Dependents</a>
+
+                                <a data-bs-target="#updatemember3" data-bs-toggle="modal" data-bs-dismiss="modal"
+                                    class="button-master-3-active"
+                                    style="width:150px;position:absolute;right:80px;bottom:20px;">Save details</a>
+                                <br><br>
+                                <br><br>
+
+
+
+                                <!-- &nbsp&nbsp&nbsp<a data-bs-target="#adddependent" data-bs-toggle="modal" data-bs-dismiss="modal" class="button-master-3" style="width:150px;">Add Dependents</a> -->
+
+                                <!-- <a data-bs-target="#updatemember3" data-bs-toggle="modal" data-bs-dismiss="modal" class="button-master-3-active" style="width:150px;position:absolute;right:40px;bottom:20px;">Save details</a> -->
+
+                            </div>
+
+
+
+                        </div>
+                        <!-- <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Understood</button>
+                                        </div> -->
+                </center>
+            </div>
+        </div>
+    </div>
+
     <div class="modal fade" id="adddependent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -603,7 +850,7 @@
                         <br><br>
                         <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee ID</span><br>
                         <input type="text" class="singleLineInput" name="name" class="form-control" id="name" value=""
-                            placeholder="E123456" style="width: 90%;"><br><br>
+                            placeholder="Seema Srivastava   E123456 06 July,1989    9857585839  seema@company.com" style="width: 90%;"><br><br>
 
 
                         <div class="container-fluid">
@@ -640,9 +887,9 @@
 
 
                                     <span class="dropdown">
-                                        <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
                                             data-bs-toggle="dropdown" aria-expanded="false"
-                                            style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                            style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                             Date
                                         </div>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -683,9 +930,9 @@
 
 
                                     <span class="dropdown">
-                                        <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
                                             data-bs-toggle="dropdown" aria-expanded="false"
-                                            style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                            style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                             Month
                                         </div>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -707,9 +954,9 @@
 
 
                                     <span class="dropdown">
-                                        <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
                                             data-bs-toggle="dropdown" aria-expanded="false"
-                                            style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                            style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                             Year
                                         </div>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -753,6 +1000,200 @@
         </div>
     </div>
 
+
+    <!-- Add family 2 modal -->
+    <div class="modal fade" id="addfamily2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <center>
+                    <h3 id="staticBackdropLabel" style="margin-top:30px;">Adding Dependents</h3>
+                    <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                        data-bs-target="#closemodal" data-bs-toggle="modal" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <div class="modal-body">
+
+                        <br><br>
+                        <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee</span><br>
+                        <input type="text" class="singleLineInput" name="name" class="form-control" id="name" value=""
+                            placeholder="Seema Srivastava   H123456 06 July,1989    9857585839  seema@company.com" style="width: 90%;"><br><br>
+
+                            <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee Family Member (1)</span><br>
+                            <input type="text" class="singleLineInput" name="name" class="form-control" id="name" value=""
+                                placeholder="Pankaj Srivastava   H123456 06 July,1989    Spouse  Male" style="width: 90%;"><br><br>
+    
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">First name</span><br>
+                                    <input type="text" class="singleLineInput" name="name" class="form-control"
+                                        id="name" value="" placeholder="Seema"><br><br>
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">Gender</span><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio3" value="option3">
+                                        <label class="form-check-label" for="inlineRadio3">Other</label>
+                                    </div>
+                                    <br><br>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">Relationship</span><br>
+                                    <input type="text" class="singleLineInput" name="name" class="form-control"
+                                        id="name" value="" placeholder="Seema"><br><br>
+                                    <span style="font-size: 16px;color:#337B94;font-weight:500;">Date Of
+                                        Birth</span><br>
+
+
+                                    <span class="dropdown">
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                            Date
+                                        </div>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">1</a></li>
+                                            <li><a class="dropdown-item" href="#">2</a></li>
+                                            <li><a class="dropdown-item" href="#">3</a></li>
+                                            <li><a class="dropdown-item" href="#">4</a></li>
+                                            <li><a class="dropdown-item" href="#">5</a></li>
+                                            <li><a class="dropdown-item" href="#">6</a></li>
+                                            <li><a class="dropdown-item" href="#">7</a></li>
+                                            <li><a class="dropdown-item" href="#">8</a></li>
+                                            <li><a class="dropdown-item" href="#">9</a></li>
+                                            <li><a class="dropdown-item" href="#">10</a></li>
+                                            <li><a class="dropdown-item" href="#">11</a></li>
+                                            <li><a class="dropdown-item" href="#">12</a></li>
+                                            <li><a class="dropdown-item" href="#">13</a></li>
+                                            <li><a class="dropdown-item" href="#">14</a></li>
+                                            <li><a class="dropdown-item" href="#">15</a></li>
+                                            <li><a class="dropdown-item" href="#">16</a></li>
+                                            <li><a class="dropdown-item" href="#">17</a></li>
+                                            <li><a class="dropdown-item" href="#">18</a></li>
+                                            <li><a class="dropdown-item" href="#">19</a></li>
+                                            <li><a class="dropdown-item" href="#">20</a></li>
+                                            <li><a class="dropdown-item" href="#">21</a></li>
+                                            <li><a class="dropdown-item" href="#">22</a></li>
+                                            <li><a class="dropdown-item" href="#">23</a></li>
+                                            <li><a class="dropdown-item" href="#">24</a></li>
+                                            <li><a class="dropdown-item" href="#">25</a></li>
+                                            <li><a class="dropdown-item" href="#">26</a></li>
+                                            <li><a class="dropdown-item" href="#">27</a></li>
+                                            <li><a class="dropdown-item" href="#">28</a></li>
+                                            <li><a class="dropdown-item" href="#">29</a></li>
+                                            <li><a class="dropdown-item" href="#">30</a></li>
+                                            <li><a class="dropdown-item" href="#">31</a></li>
+
+                                        </ul>
+                                    </span>
+
+
+                                    <span class="dropdown">
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                            Month
+                                        </div>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Jan</a></li>
+                                            <li><a class="dropdown-item" href="#">Feb</a></li>
+                                            <li><a class="dropdown-item" href="#">Mar</a></li>
+                                            <li><a class="dropdown-item" href="#">Apr</a></li>
+                                            <li><a class="dropdown-item" href="#">May</a></li>
+                                            <li><a class="dropdown-item" href="#">June</a></li>
+                                            <li><a class="dropdown-item" href="#">July</a></li>
+                                            <li><a class="dropdown-item" href="#">Aug</a></li>
+                                            <li><a class="dropdown-item" href="#">Sept</a></li>
+                                            <li><a class="dropdown-item" href="#">Oct</a></li>
+                                            <li><a class="dropdown-item" href="#">Nov</a></li>
+                                            <li><a class="dropdown-item" href="#">Dec</a></li>
+
+                                        </ul>
+                                    </span>
+
+
+                                    <span class="dropdown">
+                                        <div class="btn" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                            Year
+                                        </div>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">2021</a></li>
+                                            <li><a class="dropdown-item" href="#">2020</a></li>
+                                            <li><a class="dropdown-item" href="#">2019</a></li>
+                                            <li><a class="dropdown-item" href="#">2018</a></li>
+                                        </ul>
+                                    </span>
+
+
+                                </div>
+
+                                <div></div>
+                                <a class="button-master-3"
+                                    style="width:150px;position:absolute;left:80px;bottom:20px;">Add Dependents</a>
+
+                                <a data-bs-target="#updatemember3" data-bs-toggle="modal" data-bs-dismiss="modal"
+                                    class="button-master-3-active"
+                                    style="width:150px;position:absolute;right:80px;bottom:20px;">Save details</a>
+                                <br><br>
+                                <br><br>
+
+
+
+                                <!-- &nbsp&nbsp&nbsp<a data-bs-target="#adddependent" data-bs-toggle="modal" data-bs-dismiss="modal" class="button-master-3" style="width:150px;">Add Dependents</a> -->
+
+                                <!-- <a data-bs-target="#updatemember3" data-bs-toggle="modal" data-bs-dismiss="modal" class="button-master-3-active" style="width:150px;position:absolute;right:40px;bottom:20px;">Save details</a> -->
+
+                            </div>
+
+
+
+                        </div>
+                        <!-- <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Understood</button>
+                                        </div> -->
+                </center>
+            </div>
+        </div>
+    </div>
+
+        <!-- Add family 1 modal -->
+        <div class="modal fade" id="addfamily1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <center>
+                    <h3 id="staticBackdropLabel" style="margin-top:30px;">Add Dependents</h3>
+                    <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                        data-bs-target="#closemodal" data-bs-toggle="modal" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <div class="modal-body">
+
+                        <br><br>
+                        <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee</span><br>
+                        <input type="text" class="singleLineInput" name="name" class="form-control" id="name" value=""
+                            placeholder="Seema Srivastava   H123456 06 July,1989    9857585839  seema@company.com" style="width: 90%;"><br><br>
+
+                            <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee Family Member (1)</span><br>
+                            <input type="text" class="singleLineInput" name="name" class="form-control" id="name" value=""
+                                placeholder="Pankal Srivastava   H123456 06 July,1989    Spouse  Male" style="width: 90%;"><br><br>
+
+                </center>
+            </div>
+        </div>
+    </div>
     <!-- ADD MEMBER Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -792,9 +1233,9 @@
                                 <span style="font-size: 16px;color:#337B94;font-weight:500;">Date of Joining</span><br>
 
                                 <span class="dropdown">
-                                    <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false"
-                                        style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                         Date
                                     </div>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -834,9 +1275,9 @@
                                 </span>
 
                                 <span class="dropdown">
-                                    <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false"
-                                        style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                         Month
                                     </div>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -858,9 +1299,9 @@
 
 
                                 <span class="dropdown">
-                                    <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false"
-                                        style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                         Year
                                     </div>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -882,9 +1323,9 @@
 
 
                                 <span class="dropdown">
-                                    <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false"
-                                        style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                         Date
                                     </div>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -924,9 +1365,9 @@
                                 </span>
 
                                 <span class="dropdown">
-                                    <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false"
-                                        style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                         Month
                                     </div>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -948,9 +1389,9 @@
 
 
                                 <span class="dropdown">
-                                    <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false"
-                                        style="background-color: #E4E4E4;color:black;border-radius: 0px;">
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
                                         Year
                                     </div>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -988,6 +1429,143 @@
             </div>
         </div>
     </div>
+
+
+<!-- Edit details 1 -->
+    <div class="modal fade" id="editdetails1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px;border:none">
+                <h4 id="staticBackdropLabel" style="margin-top:30px;margin-left: 30px;">Edit details</h4>
+                <button style="position:absolute;right:40px;top:30px;" type="button" class="btn-close"
+                    data-bs-target="#closemodal" data-bs-toggle="modal" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <span style="color:#357C95;font-weight: bold;">Employee</span><br><br>
+                            <div class="col-md-6">
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">First name</span><br>
+                                <input type="text" class="singleLineInput" name="name" class="form-control" id="name"
+                                    value="" value="Seema"><br><br>
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">Gender</span><br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2" checked>
+                                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">Other</label>
+                                </div>
+                                <br><br>
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">Mobile No.</span><br>
+                                <input type="text" class="singleLineInput" name="name" class="form-control" id="name"
+                                    value="" placeholder="8474737483"><br><br>
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">Date of Joining</span><br>
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                        5
+                                    </div>
+                                </span>
+
+                                <span class="dropdown">
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                        July
+                                    </div>
+                                </span>
+
+
+                                <span class="dropdown">
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                        2019
+                                    </div>
+                                </span>
+
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">Last name</span><br>
+                                <input type="text" class="singleLineInput" name="name" class="form-control" id="name"
+                                    value="Pant"><br><br>
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">Date Of Birth</span><br>
+
+
+                                <span class="dropdown">
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                        02
+                                    </div>
+                                </span>
+
+                                <span class="dropdown">
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                        July
+                                    </div>
+                                </span>
+
+
+                                <span class="dropdown">
+                                    <div class="btn" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="color:#B2B3BD;border:1px solid #C4C4C4;">
+                                        1990
+                                    </div>
+                                </span>
+
+                                <br><br>
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">Email ID</span><br>
+                                <input type="text" class="singleLineInput" name="name" class="form-control" id="name"
+                                    value="seema@company.com"><br><br>
+                                <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee ID</span><br>
+                                <input type="text" class="singleLineInput" name="name" class="form-control" id="name"
+                                    value="E123456"><br><br>
+
+
+        
+                            </div>
+                            <span style="font-size: 16px;color:#337B94;font-weight:500;">Employee Family Member (1)</span><br>
+                            <input type="text" class="singleLineInput" name="name" class="form-control" id="name" value=""
+                                placeholder="Pankal Srivastava   H123456 06 July,1989    Spouse  Male" style="width: 90%;"><br><br>
+
+                            <br>
+                            <div></div>
+                            <br><br><br><br><br>
+                            <a data-bs-target="#adddependent" data-bs-toggle="modal" data-bs-dismiss="modal"
+                                class="button-master-3" style="width:150px;position:absolute;left:80px;bottom:20px;">Add
+                                Dependents</a>
+
+                            <a href="members.html" class="button-master-3-active"
+                                style="width:150px;position:absolute;right:80px;bottom:20px;">Go to dashboard</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Understood</button>
+                                        </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
 
     <svg data-bs-toggle="modal" data-bs-target="#staticBackdrop" width="66" height="66" viewBox="0 0 66 66" fill="none"
         xmlns="http://www.w3.org/2000/svg" style="position:fixed;bottom:40px;right:40px;cursor: pointer;">
