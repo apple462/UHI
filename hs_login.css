@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lefthalf{
+    background-color: #F9F9F9;
+    height: 100vh;
+    padding: 0px 50px 50px 0px;
+}
+
+.righthalf{
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 150px 100px 100px 200px;
+}
+
+.logo{
+    width: 30%;
+    padding: 30px;
+}
+
+.illustration{
+    margin: 150px;
+}
+
+.loginheading{
+    font-size: 56px;
+    font-weight: 600px;
+    color: #337B94;
+}
+
+.loginsubheading{
+    font-size: 16;
+    font-weight: 400px;
+    color: #000000;
+}
+
+.forminput{
+    border: none;
+    text-decoration: underline;
+    color: #B2B3BD;
+}
+
+.button-css-active{
+    /* float: right; */
+    /* width: 0%; */
+    text-align: center;
+    padding: 15px;
+    /* margin: 10px 0px; */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #357C95;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    /* vertical-align: middle; */
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
