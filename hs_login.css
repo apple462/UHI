@@ -14,7 +14,7 @@ body{
 .righthalf{
     background-color: #ffffff;
     height: 100vh;
-    padding: 150px 100px 100px 200px;
+    padding: 150px 200px 200px 200px;
 }
 
 .logo{
@@ -44,11 +44,16 @@ body{
     color: #B2B3BD;
 }
 
+.forminput:active{
+    border: none;
+}
+
 .button-css-active{
     /* float: right; */
     /* width: 0%; */
     text-align: center;
-    padding: 15px;
+    font-family: 'Inter';
+    padding: 11px;
     /* margin: 10px 0px; */
     border: none;
     border-radius: 5px;
@@ -63,4 +68,37 @@ body{
     line-height: 1.5;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-css-active:hover{
+    background-color: #357C95;
+    color: white;
+}
+
+.formcss{
+    border: none;
+    width: 400px;
+    border-bottom: 1px solid #357C95;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.formcss:focus{
+    z-index: 3;
+    border: none;
+    border-bottom: 1px solid #357C95;
+    outline: none;
+    box-shadow: none;
+}
+
+.logincontent{
+    font-size: 24;
+    font-weight: 400px;
+    color: #676565;
+}
+
+.loginquestion{
+    color: #1F4167;
+    font-size: 14px;
+    font-weight: 400;
 }

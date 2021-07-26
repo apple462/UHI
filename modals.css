@@ -1,0 +1,20 @@
+.singleLineInput{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #357C95;
+    outline:none;
+    box-shadow:none;
+}
+
+
+input[type='radio'] {
+    border: 2px solid #347A94;
+}
+input[type='radio']:checked {
+    border: 8px solid #347A94;
+    background-color: #347A94;
+}
+input[type='radio']:checked:after {
+    border: 8px solid #347A94;
+    background-color: #347A94;
+}
