@@ -1,8 +1,8 @@
 body{
     margin-top: 20px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     font-family: 'Poppins', sans-serif;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 
 .logo{
@@ -11,8 +11,12 @@ body{
     /* padding-top: 10px; */
 }
 
+.container{
+    padding: 0px;
+}
+
 .button-master-2{
-    width: 49%;
+    width: 48%;
     color: #329896;
     border-radius: 5px;
     text-align: center;
@@ -35,7 +39,7 @@ body{
 }
 
 .button-master-2-active{
-    width: 49%;
+    width: 48%;
     border-radius: 5px;
     border: none;
     padding: 10px;
@@ -58,7 +62,7 @@ body{
 }
 
 .button-css{
-    width: 70%;
+    width: 90%;
     text-align: left;
     padding: 15px;
     /* margin: 10px 0px; */
@@ -84,7 +88,7 @@ body{
 
 
 .button-css-active{
-    width: 70%;
+    width: 90%;
     text-align: left;
     padding: 15px;
     /* margin: 10px 0px; */
@@ -184,6 +188,7 @@ body{
 .overviewtogglecard{
     /* box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.05), 1px 1px 1px 1px rgba(0, 0, 0, 0.05); */
     border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 2px;
     border-radius: 8px;
     /* padding: 2px 2px 2px 2px; */
     margin-bottom: 25px;
@@ -225,9 +230,9 @@ p{
 }
 
 .togglebuttons{
-    width: 32.99%;
+    width: 33%;
     text-align: center;
-    padding: 15px 0px 15px 0px;
+    padding: 10px 0px 10px 0px;
     /* margin: 10px 0px; */
     border: none;
     background-color: white;
@@ -244,9 +249,9 @@ p{
 }
 
 .togglebuttons-active{
-    width: 32.99%;
+    width: 32.4%;
     text-align: center;
-    padding: 15px 0px 15px 0px;
+    padding: 10px 0px 10px 0px;
     /* margin: 10px 0px; */
     border: none;
     border-radius: 5px;
