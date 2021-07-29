@@ -1,0 +1,427 @@
+body{
+    margin-top: 20px;
+    /* padding-left: 10px; */
+    font-family: 'Poppins', sans-serif;
+    /* padding-right: 30px; */
+}
+
+.logo{
+    width: 75%;
+    /* padding-left: 10px; */
+    /* padding-top: 10px; */
+}
+
+.container{
+    padding: 0px;
+}
+
+.button-master-2{
+    width: 48%;
+    color: #329896;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-master-2:hover{
+    background-color: #329896;
+    color: white;
+}
+
+.button-master-2-active{
+    width: 48%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #329896;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-master-2-active:hover{
+    background-color: #329896;
+    color: white;
+}
+
+.button-css{
+    width: 90%;
+    text-align: left;
+    padding: 15px;
+    /* margin: 10px 0px; */
+    border: none;
+    background-color: white;
+    color: #808191;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-css:hover{
+    background-color: #329896;
+    color: white;
+}
+
+
+.button-css-active{
+    width: 90%;
+    text-align: left;
+    padding: 15px;
+    /* margin: 10px 0px; */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #329896;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-css-active:hover{
+    background-color: #329896;
+    color: white;
+}
+
+/* .button-css-active:focus {
+    z-index: 3;
+    border: none;
+    outline: none;
+    box-shadow: none;
+} */
+
+.hianuj{
+    font-size: 28px;
+    font-weight: 500;
+    color:#425466;
+}
+
+.welcomeback{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.button-master-3{
+    color: #329896;
+    border-radius: 5px;
+    border: 1px solid #329896;
+    padding: 10px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-master-3:hover{
+    background-color: #329896;
+    color: white;
+}
+
+.button-master-3-active{
+    border-radius: 5px;
+    border: 1px solid #329896;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #329896;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-master-3-active:hover{
+    background-color: #329896;
+    color: white;
+}
+
+.hscard{
+    border-radius: 15px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hscardinternal{
+    box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.05), 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 20px 25px 25px 20px;
+    margin-bottom: 25px;
+}
+
+.overviewtogglecard{
+    /* box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.05), 1px 1px 1px 1px rgba(0, 0, 0, 0.05); */
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 2px;
+    border-radius: 8px;
+    /* padding: 2px 2px 2px 2px; */
+    margin-bottom: 25px;
+}
+
+.hsheading{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #347C94;
+}
+
+.update{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1F4167;
+}
+
+.date{
+    font-size: 12px;
+    font-weight: 500;
+    color: #1F4167;
+    position: relative;
+    /* top: 10px; */
+    right: 0;
+    text-align: right;
+    float: right;
+}
+
+p{
+    /* line-height: 14px; */
+    margin: 0;
+}
+
+.updatetext{
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.togglebuttons{
+    width: 33%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    /* margin: 10px 0px; */
+    border: none;
+    background-color: white;
+    color: #808191;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.togglebuttons-active{
+    width: 32.4%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    /* margin: 10px 0px; */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #329896;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.togglebuttons:hover{
+    background-color: #329896;
+    color: white;
+}
+
+.togglebuttons-active:hover{
+    background-color: #329896;
+    color: white;
+}
+
+.cardcontact{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #808191;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.accordion-item{
+    border: none;
+    margin-bottom: 20px;
+}
+
+.accordion-collapse{
+    background-color: white;
+}
+
+.accordian-options{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #505050;
+}
+
+.accordion-text{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #808191;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #505050;
+    background-color:white;
+    border: none;
+    box-shadow: none;
+    /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); */
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.colorchange{
+    /* fill: #ffffff; */
+    stroke: #A4A5A6;
+}
+
+.colorchangepath{
+    fill: #A4A5A6;
+}
+/* 
+svg:hover{
+    fill: #ffffff;
+} */
+
+.button-css:hover > .colorchangepath {
+    fill: #ffffff;
+    /* stroke: #ffffff; */
+}
+
+.button-css:hover > .colorchange {
+    /* fill: #ffffff; */
+    stroke: #ffffff;
+}
+
+.togglebuttons:hover > .colorchange {
+    /* fill: #ffffff; */
+    stroke: #ffffff;
+}
+
+.button-css-active > .colorchange{
+    stroke: #ffffff;
+}
+
+.button-css-active > .colorchangepath{
+    fill: #ffffff;
+}
+
+.togglebuttons-active > .colorchange {
+    /* fill: #ffffff; */
+    stroke: #ffffff;
+}
+
+.btn-circle {
+    height: 50px;
+    line-height: 50px;  
+    width: 50px;  
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  }
+
+  .claimstats{
+    width: 16%; 
+    display: inline-block; 
+    vertical-align: top;   
+    text-align: center;  
+    padding-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: -2px;
+  }
+
+.leftedge{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.rightedge{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.notifications{
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05), 1px 1px 1px 1px rgba(0, 0, 0, 0.05); */
+    border: white;
+    border-radius: 15px;
+    padding: 20px 25px 25px 20px;
+    margin-bottom: 25px;
+    /* background-color: rgb(243, 235, 235); */
+    vertical-align: middle;
+}
+
+.employeestats{
+    width: 16%; 
+    display: inline-block; 
+    vertical-align: top;   
+    text-align: left;  
+    padding-top: 10px;
+}
+
+.employeestatshead{
+    color: #347A94;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.employeestatssubhead{
+    color: #347A94;
+    font-size: 16px;
+    font-weight: 400;
+}
