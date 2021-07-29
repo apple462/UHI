@@ -173,6 +173,89 @@ input{
     color: white;
 }
 
+.fambtn-active{
+    display: inline-block;
+    /* width: 30%; */
+    background-color: #329896;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.fambtn{
+    /* margin-left: 25px; */
+    display: inline-block;
+    /* width: 30%; */
+    background-color: white;
+    color:#B7B7B7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.fambtn:hover{
+    background-color: #329896;
+    color:white;
+}
+.fambtn-2-active{
+        /* margin-left: 25px; */
+        display: inline-block;
+        /* width: 30%; */
+        background-color: #329896;
+        color:white;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        cursor: pointer;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;    
+}
+
+.fambtn-2{
+            margin-left: 25px;
+            display: inline-block;
+            /* width: 30%; */
+            background-color: white;
+            color:#B7B7B7;
+            border: 1px solid #B7B7B7;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+            cursor: pointer;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;    
+    
+}
+
+.fambtn-2:hover{
+    background-color: #329896;
+    color:white;
+
+}
+
 .toplink{
     border-top: 2px solid #337B94;
     color: #347C94;
