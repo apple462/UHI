@@ -55,13 +55,6 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.hsheading{
-    color: #347C94;
-    font-weight: 600;
-    font-size: 60px;
-    width: max-content;
-    /* margin: 20px; */
-}
 
 .leftdetail{
     color:#8A94A6;
