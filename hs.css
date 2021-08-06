@@ -426,3 +426,6 @@ svg:hover{
 }
 
 
+table {
+    table-layout: fixed;
+  }
