@@ -493,3 +493,14 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+
+
+.update2{
+    border-right: 0px solid black; 
+}
+
+.update2:hover{
+    border-right: 10px solid #51C5A9; 
+}
+
+/* linear-gradient(#51C5A9,#337B94) */
