@@ -107,8 +107,8 @@
                         <!-- </g> -->
                     </svg>
                     &nbsp&nbsp&nbsp&nbspNotifications</a><br>
-                <a href="e_faqs.html" class="button-css"><svg width="20" height="20" viewBox="0 0 20 20"
-                        fill="none" xmlns="http://www.w3.org/2000/svg" class="colorchangepath">
+                <a href="e_faqs.html" class="button-css"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="colorchangepath">
                         <path
                             d="M20 13.5352C20 10.62 18.0357 8.07297 15.2658 7.30545C15.0917 3.24768 11.7366 0 7.63672 0C3.42575 0 0 3.42575 0 7.63672C0 9.00909 0.365295 10.3453 1.05896 11.5184L0.0280762 15.2452L3.75504 14.2145C4.83337 14.8521 6.0498 15.2113 7.3053 15.2655C8.07266 18.0356 10.6198 20 13.5352 20C14.6988 20 15.8304 19.6901 16.8246 19.1013L19.9718 19.9718L19.1013 16.8246C19.6901 15.8304 20 14.6988 20 13.5352ZM3.93997 12.9474L1.70883 13.5646L2.32605 11.3335L2.18536 11.1134C1.52237 10.0761 1.17188 8.8739 1.17188 7.63672C1.17188 4.07196 4.07196 1.17188 7.63672 1.17188C11.2015 1.17188 14.1016 4.07196 14.1016 7.63672C14.1016 11.2015 11.2015 14.1016 7.63672 14.1016C6.39954 14.1016 5.19745 13.7511 4.16 13.0881L3.93997 12.9474ZM18.2912 18.2912L16.6356 17.8331L16.4145 17.977C15.5574 18.5338 14.5616 18.8281 13.5352 18.8281C11.2439 18.8281 9.2305 17.3466 8.51715 15.2223C12.0258 14.8178 14.8178 12.0258 15.2225 8.517C17.3466 9.2305 18.8281 11.2439 18.8281 13.5352C18.8281 14.5616 18.5338 15.5574 17.977 16.4145L17.8331 16.6356L18.2912 18.2912Z" />
                         <path d="M7.05043 10.5859H8.22231V11.7578H7.05043V10.5859Z" />
@@ -160,57 +160,135 @@
 
                 <img src="images/one.png" width="100%">
                 <br>
-                <img src="images/two.png" width="100%">
+                <!-- <img src="images/two.png" width="100%"> -->
 
                 <div class="hscard">
-                    <div class="hsheading">Claims Overview</div>
-                    <div>
-                        
+                    <div class="hsheading">Claims Overview</div><Br>
+                    <div
+                        style="border: 1px solid #E4E4E4; border-radius: 16px; width: 100%; padding: 0px; margin: 0px; font-size: 14px; color: #337B94;">
+                        <div style="display: inline-block; width: 33%; vertical-align: middle; text-align: center;">
+                            <br>Claims Settled<br><br><span
+                                style="font-size: 28px; font-weight: 500;">00</span><br><span
+                                style="color: #808191;">Rs.0</span><br><br></div>
+                        <div
+                            style="display: inline-block; width: 33%; vertical-align: middle; text-align: center; border-left: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;">
+                            <br>Processed<br><br><span style="font-size: 28px; font-weight: 500;">01</span><br><span
+                                style="color: #808191;">Rs.2,00,000</span><br><br></div>
+                        <div style="display: inline-block; width: 32%; vertical-align: middle; text-align: center;">
+                            <br>Rejected<br><br><span style="font-size: 28px; font-weight: 500;">01</span><br><span
+                                style="color: #808191;">Rs.5,00,000</span><br><br></div>
+                    </div><br><br>
+                    <table class="table" style="table-layout: fixed; width: 100%;">
+                        <!-- <thead> -->
+                        <tr style="color: #337B94; font-size: 14px; font-weight: 500; text-align: left;">
+                            <th scope="col" style="width: 40%;">Amit Mishra<br><span
+                                    style="color: #808191; font-size: 12px; font-weight: 400;">Employee (E1223)</span>
+                            </th>
+                            <th scope="col" style="width: 20%;">2,00,000</th>
+                            <th scope="col" style="width: 20%;"><span
+                                    style="padding: 5px 12px; background-color: #329896; color: white; border-radius: 4px;">In
+                                    process</span></th>
+                            <th scope="col" style="width: 20%; text-align: center;">Cash</th>
+                            <!-- <th scope="col" style="text-align: left;">Invoices</th> -->
+                        </tr>
+                    </table>
+                    <br><br>
+                    <a class="button-master-3-active" style="float: right;" data-bs-toggle="modal" data-bs-target="#fileclaim">File Claim</a>
+                    <div class="modal fade" id="fileclaim" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-md modal-dialog-centered">
+                            <div class="modal-content" style="border-radius: 20px; border:none;">
+                                <center>
+                                    <h3 id="staticBackdropLabel" style="margin-top:30px; color: #357C95; font-size: 24px; line-height: 40px; font-weight: 500;">To file a claim<br>
+                                        please call your policy SPOC
+                                    </h3>
+                                    <button style="position:absolute;right:40px;top:30px;" type="button"
+                                        class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    
+                                    <center>
+                                        <!-- <img src="images\placeholder.png" style="width: 25%; margin: 30px;"> -->
+                                        <Div style="margin: 30px;">
+                                            <svg width="84" height="84" viewBox="0 0 84 84" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="41.56" cy="41.56" r="41.56" fill="url(#paint0_linear)" />
+                                                <path
+                                                    d="M42.3047 21.998C36.8375 21.998 32.3895 26.446 32.3895 31.9132C32.3895 37.3804 36.8375 41.8283 42.3047 41.8283C47.7719 41.8283 52.2198 37.3804 52.2198 31.9132C52.2198 26.446 47.7719 21.998 42.3047 21.998ZM42.3047 39.4487C38.1496 39.4487 34.7692 36.0682 34.7692 31.9132C34.7692 27.7581 38.1496 24.3777 42.3047 24.3777C46.4597 24.3777 49.8402 27.7581 49.8402 31.9132C49.8402 36.0682 46.4597 39.4487 42.3047 39.4487Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M57.9877 57.5318C56.8186 49.8423 50.2037 44.209 42.4315 44.209H42.1231C34.369 44.209 27.785 49.8796 26.6215 57.5318L25.8492 62.6115H58.76L57.9877 57.5318ZM41.1148 60.2318H28.618L28.9742 57.8896C29.6517 53.4339 32.5619 49.5488 36.8088 47.6978L41.1148 54.3564V60.2318ZM39.1444 46.9272C40.1151 46.704 41.1141 46.5886 42.1232 46.5886H42.4315C43.4585 46.5886 44.4743 46.7066 45.4604 46.9342L42.3046 51.8141L39.1444 46.9272ZM43.4944 60.2319V54.3564L47.796 47.7049C52.0642 49.5624 54.9602 53.4499 55.6351 57.8896L55.9912 60.2319H43.4944Z"
+                                                    fill="white" />
+                                                <defs>
+                                                    <linearGradient id="paint0_linear" x1="41.56" y1="0" x2="41.56" y2="83.12"
+                                                        gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#329896" />
+                                                        <stop offset="1" stop-color="#357C95" />
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </Div>
+                
+                                        <div class="hsheading" style="font-size: 16px; margin-bottom: 10px;">+91 62648 49591
+                                        </div>
+                                        <div class="cardcontact">Rajendra verma</div>
+                                        <div class="cardcontact">rajendra@healthysure.com</div>
+                                        <!-- <div class="cardcontact">+91 62648 49591</div> -->
+                                    </center>
+                                    <br><br>
+                                </center>
+                            </div>
+                        </div>
                     </div>
+                    <br><br>
                 </div>
-
+                <br><Br>
                 <div style="font-size: 28px;font-weight: 500;color:#27272E">Healthcare Services</div>
                 <br>
 
-                    <div class="hscardinternal update2">
-                        <!-- Member Update -->
-                        <div class="row">
-                            <div class="col-lg-3">                        
-                                <span class="updateimage"><img src="images/Rounded Rectangle.png" width="100%"></span>
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="update" style="font-size: 16px;color:#337B94; font-weight: 400;">Service #1</span><br><br>
-                                <p class="updatetext" style="font-size: 14px;color:#337B94; font-weight: 400;">3 members have been removed from Group health insurance</p>  
-                            </div>
+                <div class="e_hscard update2">
+                    <!-- Member Update -->
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span class="updateimage"><img src="images/Rounded Rectangle.png" width="100%"></span>
                         </div>
-                        
-                    </div>
-                    <div class="hscardinternal update2">
-                        <!-- Member Update -->
-                        <div class="row">
-                            <div class="col-lg-3">                        
-                                <span class="updateimage"><img src="images/Rounded Rectangle.png" width="100%"></span>
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="update" style="font-size: 16px;color:#337B94; font-weight: 400;">Service #1</span><br><br>
-                                <p class="updatetext" style="font-size: 14px;color:#337B94; font-weight: 400;">3 members have been removed from Group health insurance</p>  
-                            </div>
+                        <div class="col-lg-9">
+                            <span class="update" style="font-size: 16px;color:#337B94; font-weight: 400;">Service
+                                #1</span><br><br>
+                            <p class="updatetext" style="font-size: 14px;color:#337B94; font-weight: 400;">3 members
+                                have been removed from Group health insurance</p>
                         </div>
-                        
                     </div>
-                    <div class="hscardinternal update2">
-                        <!-- Member Update -->
-                        <div class="row">
-                            <div class="col-lg-3">                        
-                                <span class="updateimage"><img src="images/Rounded Rectangle.png" width="100%"></span>
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="update" style="font-size: 16px;color:#337B94; font-weight: 400;">Service #1</span><br><br>
-                                <p class="updatetext" style="font-size: 14px;color:#337B94; font-weight: 400;">3 members have been removed from Group health insurance</p>  
-                            </div>
+
+                </div>
+                <div class="e_hscard update2">
+                    <!-- Member Update -->
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span class="updateimage"><img src="images/Rounded Rectangle.png" width="100%"></span>
                         </div>
-                        
+                        <div class="col-lg-9">
+                            <span class="update" style="font-size: 16px;color:#337B94; font-weight: 400;">Service
+                                #</span><br><br>
+                            <p class="updatetext" style="font-size: 14px;color:#337B94; font-weight: 400;">3 members
+                                have been removed from Group health insurance</p>
+                        </div>
                     </div>
+
+                </div>
+                <div class="e_hscard update2">
+                    <!-- Member Update -->
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span class="updateimage"><img src="images/Rounded Rectangle.png" width="100%"></span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span class="update" style="font-size: 16px;color:#337B94; font-weight: 400;">Service
+                                #3</span><br><br>
+                            <p class="updatetext" style="font-size: 14px;color:#337B94; font-weight: 400;">3 members
+                                have been removed from Group health insurance</p>
+                        </div>
+                    </div>
+
+                </div>
 
 
             </div>
@@ -242,8 +320,8 @@
                     </center>
 
                 </div>
+                <br>
 
-                
                 <div class="hscard" style="margin-top: 8px;">
                     <div class="hsheading">Help Desk</div><br>
                     <button class="button-master-2-active">Claim Help</button>
@@ -253,7 +331,7 @@
                         <Div style="margin: 30px;">
                             <svg width="84" height="84" viewBox="0 0 84 84" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="41.56" cy="41.56" r="41.56" fill="url(#paint0_linear)" />
+                                <circle cx="41.56" cy="41.56" r="41.56" fill="url(#paint2_linear)" />
                                 <path
                                     d="M42.3047 21.998C36.8375 21.998 32.3895 26.446 32.3895 31.9132C32.3895 37.3804 36.8375 41.8283 42.3047 41.8283C47.7719 41.8283 52.2198 37.3804 52.2198 31.9132C52.2198 26.446 47.7719 21.998 42.3047 21.998ZM42.3047 39.4487C38.1496 39.4487 34.7692 36.0682 34.7692 31.9132C34.7692 27.7581 38.1496 24.3777 42.3047 24.3777C46.4597 24.3777 49.8402 27.7581 49.8402 31.9132C49.8402 36.0682 46.4597 39.4487 42.3047 39.4487Z"
                                     fill="white" />
@@ -261,7 +339,7 @@
                                     d="M57.9877 57.5318C56.8186 49.8423 50.2037 44.209 42.4315 44.209H42.1231C34.369 44.209 27.785 49.8796 26.6215 57.5318L25.8492 62.6115H58.76L57.9877 57.5318ZM41.1148 60.2318H28.618L28.9742 57.8896C29.6517 53.4339 32.5619 49.5488 36.8088 47.6978L41.1148 54.3564V60.2318ZM39.1444 46.9272C40.1151 46.704 41.1141 46.5886 42.1232 46.5886H42.4315C43.4585 46.5886 44.4743 46.7066 45.4604 46.9342L42.3046 51.8141L39.1444 46.9272ZM43.4944 60.2319V54.3564L47.796 47.7049C52.0642 49.5624 54.9602 53.4499 55.6351 57.8896L55.9912 60.2319H43.4944Z"
                                     fill="white" />
                                 <defs>
-                                    <linearGradient id="paint0_linear" x1="41.56" y1="0" x2="41.56" y2="83.12"
+                                    <linearGradient id="paint2_linear" x1="41.56" y1="0" x2="41.56" y2="83.12"
                                         gradientUnits="userSpaceOnUse">
                                         <stop stop-color="#329896" />
                                         <stop offset="1" stop-color="#357C95" />
@@ -442,7 +520,8 @@
                         </div>
                     </div>
                     <center>
-                        <a href="healthcare_benefits_section.html" class="button-master-3" style="padding: 10px 20px 10px 20px;">
+                        <a href="healthcare_benefits_section.html" class="button-master-3"
+                            style="padding: 10px 20px 10px 20px;">
                             View All Benefits
                         </a>
                     </center>
