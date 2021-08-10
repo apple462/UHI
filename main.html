@@ -430,31 +430,33 @@
                 </div>
                 <div class="hscard">
                     <div>
-                        <span style="display: inline-block; width: 50%; font-size: 14px; font-weight: 400; color: #808191;">
+                        <span
+                            style="display: inline-block; width: 50%; font-size: 14px; font-weight: 400; color: #808191;">
                             <i class="fa fa-search" aria-hidden="true"></i>
                             &nbsp&nbsp&nbsp&nbspSearch Employee Data</span>
                         <span style="display: inline-block;">
                             <a href="members.html" class="button-master-3" style="margin-right: 10px">Member data</a>
-                            <button class="button-master-3-active">Update Members</button>
+                            <button class="button-master-3-active" data-bs-toggle="modal"
+                                data-bs-target="#updatemember1">Update Members</button>
                         </span>
                     </div>
                     <br>
                     <div class="table" style="overflow-x: scroll;">
-                        <table class="table" style="font-size: 8.23px;table-layout: fixed;">
+                        <table class="table" style="font-size: 10px; table-layout: fixed;">
                             <!-- <thead> -->
-                            <tr style="font-size: 9.41px;  color: #B2B3BD;">
-                                <th scope="col" style="width:80px">Employee</th>
-                                <th scope="col" style="width:110px;">Contact</th>
+                            <tr style="font-size: 12px;  color: #B2B3BD;">
+                                <th scope="col" style="width:110px">Employee</th>
+                                <th scope="col" style="width:140px;">Contact</th>
                                 <!-- CHECK -->
-                                <th scope="col" style="width:80px;">Date of Birth</th>
-                                <th scope="col" style="width:60px;">Health ID</th>
-                                <th scope="col" style="width:50px;">Gender</th>
+                                <th scope="col" style="width:100px;">Date of Birth</th>
+                                <th scope="col" style="width:80px;">Health ID</th>
+                                <th scope="col" style="width:60px;">Gender</th>
                                 <th scope="col" style="width:60px;">Status</th>
-                                <th scope="col" style="width:60px;">Account Status</th>
-                                <th scope="col" style="width:60px;">Upgrades</th>
-                                <th scope="col" style="width:60px;">Policy / Health ID</th>
+                                <th scope="col" style="width:70px;">Account Status</th>
+                                <th scope="col" style="width:70px;">Upgrades</th>
+                                <th scope="col" style="width:80px;">Policy/ Health ID</th>
                                 <th scope="col" style="width:80px;">Premium</th>
-                                <th scope="col" style="width:60px;">Additional Premium</th>
+                                <th scope="col" style="width:100px;">Additional Premium</th>
                                 <th scope="col" style="width:60px;">Sum Insured</th>
                                 <th scope="col" style="width:50px;">Insurance Status</th>
 
@@ -581,7 +583,7 @@
                                 </svg>
 
                                 <svg style="float:right;" width="66" height="66" viewBox="0 0 66 66" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                    xmlns="http://www.w3.org/2000/svg" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                                     <g filter="url(#filter0_d)">
                                         <ellipse cx="30.4066" cy="26" rx="21.4774" ry="21" fill="#357C95" />
                                     </g>
